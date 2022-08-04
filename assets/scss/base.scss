@@ -1,0 +1,176 @@
+
+
+
+
+
+  .hidden {
+    display: none;
+  }
+
+
+
+
+
+ .add-new-city{     
+    form{
+      display: flex;      
+      flex-direction: column;
+      align-items: center;
+    }
+    
+
+     input{
+      width: 50%;      
+     }
+
+     label{
+      font-size: x-large;
+      font-weight: bold;
+     }
+
+     select{
+      width: 50%;
+     }
+  
+ }
+
+  .add-city-btn {
+      margin: .5rem;
+      padding: .3rem 2rem;
+  }
+
+
+  #select-city{
+    display: none;
+  }
+
+  .select-city-a{
+    cursor: pointer;
+  }
+
+
+ .current-list-city{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+      ul{
+        display: flex;
+        align-items: center;
+        padding: 0rem;
+        margin: 0rem;
+
+        li{
+          margin: .3rem;
+        }
+        
+     }
+ }
+
+
+
+  #msg-request{
+      display: flex; 
+      justify-content: space-around;  
+      align-items: center;
+
+      span{
+        font-weight: bold;
+
+        &:hover{
+          color:grey;
+          cursor: pointer;
+          
+        }
+      }
+  }
+
+
+ 
+
+  .btn-del {
+    border: none;  
+    background-color: transparent;
+    font-size: 0.9rem;
+    color:rgb(255, 119, 119);
+    margin-right: 2rem;
+    font-weight: bold;
+
+    &:hover{
+      color: red;    
+      transform: scale(1.2); 
+      
+    }
+  }
+
+
+
+  .current-list-city{
+     padding: 3em;
+    
+      ul{
+    
+        flex-wrap: wrap;
+       
+      }
+
+      li{
+        margin: 1rem;
+        list-style: none;
+        display: flex;
+      }
+  }
+
+
+
+.list-city-weather{
+
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    padding: 1rem;
+    justify-content: space-around;
+  
+  
+    li{
+      list-style: none;
+      margin: 1rem;
+
+    }    
+
+
+    .card{
+      align-items: center;
+      box-shadow:  0 0 3px 1px lightgray;
+
+      h1{
+        font-size: x-large;
+        font-weight: bold;
+        padding: 0.5rem;
+      }
+
+        img{
+          border: none;
+          padding: 1rem;
+       }
+
+    }
+
+    .card-body {
+      text-align: center;
+
+      h2{        
+        font-weight: bold;
+        
+        &::first-letter{
+          text-transform: uppercase;
+        }
+      }    
+
+      h4{
+        font-weight: lighter;
+      }   
+    
+  }
+  
+}

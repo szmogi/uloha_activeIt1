@@ -1,0 +1,127 @@
+/* line 6, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+.hidden {
+  display: none; }
+
+/* line 15, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+.add-new-city form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+/* line 22, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+.add-new-city input {
+  width: 50%; }
+
+/* line 26, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+.add-new-city label {
+  font-size: x-large;
+  font-weight: bold; }
+
+/* line 31, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+.add-new-city select {
+  width: 50%; }
+
+/* line 37, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+.add-city-btn {
+  margin: .5rem;
+  padding: .3rem 2rem; }
+
+/* line 43, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+#select-city {
+  display: none; }
+
+/* line 47, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+.select-city-a {
+  cursor: pointer; }
+
+/* line 52, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+.current-list-city {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  /* line 57, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+  .current-list-city ul {
+    display: flex;
+    align-items: center;
+    padding: 0rem;
+    margin: 0rem; }
+    /* line 63, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+    .current-list-city ul li {
+      margin: .3rem; }
+
+/* line 72, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+#msg-request {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  /* line 77, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+  #msg-request span {
+    font-weight: bold; }
+    /* line 80, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+    #msg-request span:hover {
+      color: grey;
+      cursor: pointer; }
+
+/* line 91, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+.btn-del {
+  border: none;
+  background-color: transparent;
+  font-size: 0.9rem;
+  color: #ff7777;
+  margin-right: 2rem;
+  font-weight: bold; }
+  /* line 99, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+  .btn-del:hover {
+    color: red;
+    transform: scale(1.2); }
+
+/* line 108, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+.current-list-city {
+  padding: 3em; }
+  /* line 111, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+  .current-list-city ul {
+    flex-wrap: wrap; }
+  /* line 117, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+  .current-list-city li {
+    margin: 1rem;
+    list-style: none;
+    display: flex; }
+
+/* line 126, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+.list-city-weather {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  padding: 1rem;
+  justify-content: space-around; }
+  /* line 135, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+  .list-city-weather li {
+    list-style: none;
+    margin: 1rem; }
+  /* line 142, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+  .list-city-weather .card {
+    align-items: center;
+    box-shadow: 0 0 3px 1px lightgray; }
+    /* line 146, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+    .list-city-weather .card h1 {
+      font-size: x-large;
+      font-weight: bold;
+      padding: 0.5rem; }
+    /* line 152, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+    .list-city-weather .card img {
+      border: none;
+      padding: 1rem; }
+  /* line 159, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+  .list-city-weather .card-body {
+    text-align: center; }
+    /* line 162, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+    .list-city-weather .card-body h2 {
+      font-weight: bold; }
+      /* line 165, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+      .list-city-weather .card-body h2::first-letter {
+        text-transform: uppercase; }
+    /* line 170, ../xampp/htdocs/uloha_activeIt/assets/scss/base.scss */
+    .list-city-weather .card-body h4 {
+      font-weight: lighter; }
+
+/*# sourceMappingURL=base.css.map */
